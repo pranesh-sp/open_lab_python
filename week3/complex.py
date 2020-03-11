@@ -1,0 +1,13 @@
+import math as m
+n_1 = input()
+n1 = n_1.split(' ')
+x = float(n1[0])
+y = float(n1[1])
+n_2 = input()
+n2 = n_2.split(' ')
+u = float(n2[0])
+v = float(n2[1])
+print(f"{x+u} {y+v}j")
+print(f"{x-u} {y-v}j")
+print(f"{x*u-y*v} {x*v+y*u}j")
+print(f"{m.sqrt(x**2+y**2)} 0.00j")
